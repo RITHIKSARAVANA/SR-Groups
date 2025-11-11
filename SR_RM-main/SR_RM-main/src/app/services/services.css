@@ -1,0 +1,71 @@
+/* src/app/services/service.css */
+
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full width utility class */
+.w-full {
+    width: 100%;
+}
+
+/* Text color utility class */
+.text-white {
+    color: white;
+}
+
+/* Background gradient for the services page */
+.services-bg {
+    background: none; /* Remove background */
+}
+
+/* Styles for headings */
+h1, h2, h3 {
+    color: #ffffff; /* White color for headings */
+}
+
+/* Styles for paragraphs */
+p {
+    color: #cccccc; /* Light gray color for text */
+}
+
+/* Card styles for services */
+.service-card {
+    background: none; /* Remove background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Button styles */
+button {
+    background: linear-gradient(to right, #4f46e5, #a855f7); /* Gradient background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #4338ca, #9333ea); /* Darker gradient on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+}
+
+/* Add more styles as needed */

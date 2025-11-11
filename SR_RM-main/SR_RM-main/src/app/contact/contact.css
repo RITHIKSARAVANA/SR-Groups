@@ -1,0 +1,141 @@
+/* src/app/contact/contact.css */
+
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Full width utility class */
+.w-full {
+    width: 100%;
+}
+
+/* Text color utility class */
+.text-white {
+    color: white;
+}
+
+/* Background gradient for the contact page */
+.bg-gradient {
+    background: linear-gradient(to bottom right, #1a1a1a, #0d0d0d);
+}
+
+/* Styles for headings */
+h1, h2, h3 {
+    color: #ffffff; /* White color for headings */
+}
+
+/* Styles for paragraphs */
+p {
+    color: #cccccc; /* Light gray color for text */
+}
+
+/* Button styles */
+button {
+    background: linear-gradient(to right, #4f46e5, #a855f7); /* Gradient background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #4338ca, #9333ea); /* Darker gradient on hover */
+}
+
+/* Form input styles */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4f46e5; /* Change border color on focus */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+}
+
+/* Add more styles as needed */
+
+.contact-bg {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.whatsapp-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-logo img {
+    width: 60px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: make it circular */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Optional: add shadow */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .contact-bg {
+        padding: 15px;
+    }
+
+    input, textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
